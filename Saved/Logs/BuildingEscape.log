@@ -1,30 +1,9 @@
-﻿Log file open, 09/21/17 16:55:18
+﻿Log file open, 09/21/17 18:07:16
 LogInit:Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1541023738) SRandInit(1541023738).
+LogInit:Display: RandInit(-797997396) SRandInit(-797997396).
 LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 3.119544
-LogInit:Warning: Incompatible or missing module: UE4Editor-BuildingEscape.dll
-Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Development Win64 -project="C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/BuildingEscape.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Creating makefile for BuildingEscape (no existing makefile)
-Performing full C++ include scan (no include cache file)
-@progress push 5%
-Parsing headers for BuildingEscapeEditor
-  Running UnrealHeaderTool "C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for BuildingEscapeEditor in 14.9093759 seconds
-@progress pop
-Performing 8 actions (3 in parallel)
-[3/8] Resource PCLaunch.rc
-[2/8] Resource ModuleVersionResource.rc.inl
-SharedPCH.Engine.cpp
-BuildingEscape.generated.cpp
-BuildingEscapeGameModeBase.cpp
-BuildingEscape.cpp
-[7/8] Link UE4Editor-BuildingEscape.dll
-[8/8] Link UE4Editor-BuildingEscape.lib
-   Creating library C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
-   Creating library C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
-Total build time: 115.52 seconds (Local executor: 35.38 seconds)
+LogStats: Stats thread started at 0.123100
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -71,766 +50,445 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.21-15.57.26:413][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.21-15.57.26:413][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.21-15.57.26:511][  0]LogInit: Computer: DESKTOP
-[2017.09.21-15.57.26:511][  0]LogInit: User: HenryCrofts
-[2017.09.21-15.57.26:511][  0]LogInit: CPU Page size=4096, Cores=3
-[2017.09.21-15.57.26:511][  0]LogInit: High frequency timer resolution =3.433745 MHz
-[2017.09.21-15.57.26:520][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.09.21-15.57.26:520][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.21-15.57.26:520][  0]LogMemory: Process Physical Memory: 277.32 MB used, 277.32 MB peak
-[2017.09.21-15.57.26:520][  0]LogMemory: Process Virtual Memory: 259.45 MB used, 259.45 MB peak
-[2017.09.21-15.57.26:520][  0]LogMemory: Physical Memory: 4712.97 MB used,  3443.68 MB free, 8156.65 MB total
-[2017.09.21-15.57.26:520][  0]LogMemory: Virtual Memory: 681.06 MB used,  3443.68 MB free, 134217728.00 MB total
-[2017.09.21-15.57.27:710][  0]LogInit: Using OS detected language (en-US).
-[2017.09.21-15.57.27:710][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.21-15.57.27:936][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.21-15.57.31:916][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.21-15.57.31:968][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2017.09.21-15.57.31:968][  0]LogD3D11RHI:       3052/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.09.21-15.57.31:996][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.21-15.57.31:996][  0]LogD3D11RHI:       0/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.21-15.57.31:996][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.21-15.57.32:017][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.21-15.57.32:017][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
-[2017.09.21-15.57.32:017][  0]LogWindows: EnumDisplayDevices:
-[2017.09.21-15.57.32:017][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:0 D:1)
-[2017.09.21-15.57.32:018][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2017.09.21-15.57.32:018][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.21-15.57.32:019][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.21-15.57.32:019][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.21-15.57.32:020][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.09.21-15.57.32:020][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.09.21-15.57.32:020][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2017.09.21-15.57.32:020][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
-[2017.09.21-15.57.32:020][  0]LogD3D11RHI:      Driver Date: 7-20-2017
-[2017.09.21-15.57.32:020][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.21-15.57.32:148][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.21-15.57.32:455][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.09.21-15.57.32:574][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Intermediate/Shaders/WorkingDirectory/12756/).
-[2017.09.21-15.57.32:574][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Henry Crofts/AppData/Local/Temp/UnrealShaderWorkingDir/36BB59C240CEE0BB492F4881C550A21D/'.
-[2017.09.21-15.57.32:582][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.21-15.57.36:092][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.21-15.57.36:258][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.09.21-15.57.36:561][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.21-15.57.36:734][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.09.21-15.57.36:928][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.09.21-15.57.37:094][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.21-15.57.37:263][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.21-15.57.37:427][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.21-15.57.37:584][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.21-15.57.37:775][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.21-15.57.37:936][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.21-15.57.38:112][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.21-15.57.38:358][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.21-15.57.38:535][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.21-15.57.38:711][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.21-15.57.39:059][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.21-15.57.39:059][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.21-15.57.39:214][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.21-15.57.39:567][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.21-15.57.39:658][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.21-15.57.39:840][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.21-15.57.40:000][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.21-15.57.40:234][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.21-15.57.40:428][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.21-15.57.40:428][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.21-15.57.42:791][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.21-15.57.43:573][  0]LogDerivedDataCache: Loaded boot cache 0.78s 90MB C:/Users/Henry Crofts/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.21-15.57.43:573][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Henry Crofts/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.09.21-15.57.43:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.21-15.57.43:573][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.21-15.57.43:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.21-15.57.43:573][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.21-15.57.43:623][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.21-15.57.43:637][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Henry Crofts/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.21-15.57.43:716][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.21-15.57.43:801][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.21-15.57.43:907][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.21-15.57.43:907][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.21-15.57.51:776][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.21-15.57.52:856][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.21-15.57.53:801][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.21-15.57.54:080][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.21-15.57.54:275][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.21-15.57.54:275][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.09.21-15.57.54:275][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.21-15.57.59:602][  0]LogNetVersion: BuildingEscape , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 784502225)
-[2017.09.21-15.57.59:958][  0]LogAssetRegistry: FAssetRegistry took 0.0531 seconds to start up
-[2017.09.21-15.58.00:503][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.327674 seconds
-[2017.09.21-15.58.00:684][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.09.21-15.58.00:684][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.09.21-15.58.00:684][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.21-15.58.01:009][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.21-15.58.42:599][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.21-15.58.42:740][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.21-15.58.46:247][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.21-15.58.47:700][  0]SourceControl: Info Source control is disabled
-[2017.09.21-15.58.48:063][  0]SourceControl: Info Source control is disabled
-[2017.09.21-15.58.48:312][  0]SourceControl: Info Source control is disabled
-[2017.09.21-15.58.48:518][  0]SourceControl: Info Source control is disabled
-[2017.09.21-15.58.51:372][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.21-15.58.53:908][  0]LogEngine: Initializing Engine...
-[2017.09.21-15.58.53:956][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.21-15.58.54:453][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.21-15.58.54:453][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.21-15.58.55:329][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.21-15.58.55:609][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio(Win 10))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.21-15.58.55:655][  0]LogInit: FAudioDevice initialized.
-[2017.09.21-15.58.55:744][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/Henry Crofts/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.21-15.58.55:765][  0]LogInit: Texture streaming: Enabled
-[2017.09.21-15.58.56:278][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.21-15.58.57:517][  0]LogInit: Transaction tracking system initialized
-[2017.09.21-15.58.58:917][  0]BlueprintLog: New page: Editor Load
-[2017.09.21-15.59.04:213][  0]LocalizationService: Info Localization service is disabled
-[2017.09.21-15.59.07:345][  0]LogConsoleResponse:Display: 
-[2017.09.21-15.59.08:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/' took 0.02s
-[2017.09.21-15.59.08:527][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.21-15.59.08:528][  0]LogCook:Display: Mobile HDR setting 1
-[2017.09.21-15.59.13:407][  0]SourceControl: Info Source control is disabled
-[2017.09.21-15.59.13:630][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
-[2017.09.21-15.59.13:726][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.09.21-15.59.13:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.09.21-15.59.13:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.09.21-15.59.13:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.09.21-15.59.13:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.09.21-15.59.13:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.09.21-15.59.13:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.09.21-15.59.13:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.09.21-15.59.13:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.09.21-15.59.13:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.09.21-15.59.13:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.09.21-15.59.13:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.09.21-15.59.13:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.09.21-15.59.13:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.09.21-15.59.13:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.09.21-15.59.13:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.09.21-15.59.13:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.09.21-15.59.13:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.09.21-15.59.13:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Fire01.uasset"
-[2017.09.21-15.59.13:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.09.21-15.59.13:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.09.21-15.59.13:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.09.21-15.59.13:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Light01.uasset"
-[2017.09.21-15.59.13:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.09.21-15.59.14:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Light02.uasset"
-[2017.09.21-15.59.14:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.09.21-15.59.14:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.09.21-15.59.14:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.09.21-15.59.14:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.09.21-15.59.14:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.09.21-15.59.14:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.09.21-15.59.14:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.09.21-15.59.14:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.09.21-15.59.14:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.09.21-15.59.14:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Steam01.uasset"
-[2017.09.21-15.59.14:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.09.21-15.59.14:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.09.21-15.59.14:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.09.21-15.59.14:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.09.21-15.59.14:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.09.21-15.59.14:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.09.21-15.59.14:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.09.21-15.59.14:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.09.21-15.59.14:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.09.21-15.59.14:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.09.21-15.59.14:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.09.21-15.59.14:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.09.21-15.59.14:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.09.21-15.59.14:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.09.21-15.59.14:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.09.21-15.59.14:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.09.21-15.59.14:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.09.21-15.59.14:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.09.21-15.59.14:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.09.21-15.59.14:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.09.21-15.59.14:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.09.21-15.59.15:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.09.21-15.59.15:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Maps/StarterMap.umap"
-[2017.09.21-15.59.15:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.09.21-15.59.15:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.09.21-15.59.15:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.09.21-15.59.15:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.09.21-15.59.15:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.09.21-15.59.15:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.09.21-15.59.15:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.09.21-15.59.15:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.09.21-15.59.15:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.09.21-15.59.15:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.09.21-15.59.15:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.09.21-15.59.15:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.09.21-15.59.15:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.09.21-15.59.15:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.09.21-15.59.15:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.09.21-15.59.15:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.09.21-15.59.15:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.09.21-15.59.15:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.09.21-15.59.15:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.09.21-15.59.15:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.09.21-15.59.15:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.09.21-15.59.15:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.09.21-15.59.15:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.09.21-15.59.15:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.09.21-15.59.15:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.09.21-15.59.15:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.09.21-15.59.15:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.09.21-15.59.15:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.09.21-15.59.15:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.09.21-15.59.15:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.09.21-15.59.15:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.09.21-15.59.15:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.09.21-15.59.16:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.09.21-15.59.16:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.09.21-15.59.16:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.09.21-15.59.16:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.09.21-15.59.16:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.09.21-15.59.16:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.09.21-15.59.16:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.09.21-15.59.16:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.09.21-15.59.16:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.09.21-15.59.16:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.09.21-15.59.16:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.09.21-15.59.16:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.09.21-15.59.16:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.09.21-15.59.16:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.09.21-15.59.16:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.09.21-15.59.16:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.09.21-15.59.16:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.09.21-15.59.16:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.09.21-15.59.16:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.09.21-15.59.16:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.09.21-15.59.16:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.09.21-15.59.16:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.09.21-15.59.16:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.09.21-15.59.16:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.09.21-15.59.16:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.09.21-15.59.16:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.09.21-15.59.16:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.09.21-15.59.16:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.09.21-15.59.16:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.09.21-15.59.16:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.09.21-15.59.16:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.09.21-15.59.16:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.09.21-15.59.16:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.09.21-15.59.16:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Door.uasset"
-[2017.09.21-15.59.16:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.09.21-15.59.16:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.09.21-15.59.16:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.09.21-15.59.16:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.09.21-15.59.16:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.09.21-15.59.16:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.09.21-15.59.16:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.09.21-15.59.16:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.09.21-15.59.16:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.09.21-15.59.16:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.09.21-15.59.16:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.09.21-15.59.16:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.09.21-15.59.16:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.09.21-15.59.16:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.09.21-15.59.16:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.09.21-15.59.16:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.09.21-15.59.16:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.09.21-15.59.16:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.09.21-15.59.16:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.09.21-15.59.16:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.09.21-15.59.16:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.09.21-15.59.16:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.09.21-15.59.16:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.09.21-15.59.16:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.09.21-15.59.16:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.09.21-15.59.16:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.09.21-15.59.16:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.09.21-15.59.16:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.09.21-15.59.16:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.09.21-15.59.16:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.09.21-15.59.16:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.09.21-15.59.16:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.09.21-15.59.16:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.09.21-15.59.16:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.09.21-15.59.16:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.09.21-15.59.16:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.09.21-15.59.16:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.09.21-15.59.16:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.09.21-15.59.16:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.09.21-15.59.16:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.09.21-15.59.16:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.09.21-15.59.16:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.09.21-15.59.16:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.09.21-15.59.16:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.09.21-15.59.17:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.09.21-15.59.17:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.09.21-15.59.17:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.09.21-15.59.17:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.09.21-15.59.17:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.09.21-15.59.17:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.09.21-15.59.17:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.09.21-15.59.17:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.09.21-15.59.17:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.09.21-15.59.17:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.09.21-15.59.18:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.09.21-15.59.18:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.09.21-15.59.18:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.09.21-15.59.18:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.09.21-15.59.18:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.09.21-15.59.18:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.09.21-15.59.18:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.09.21-15.59.18:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.09.21-15.59.18:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.09.21-15.59.18:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.09.21-15.59.18:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.09.21-15.59.18:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.09.21-15.59.18:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.09.21-15.59.18:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.09.21-15.59.18:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.09.21-15.59.18:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.09.21-15.59.18:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.09.21-15.59.19:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.09.21-15.59.19:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.09.21-15.59.19:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.09.21-15.59.19:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.09.21-15.59.19:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.09.21-15.59.19:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.09.21-15.59.19:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.09.21-15.59.20:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.09.21-15.59.20:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.09.21-15.59.20:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.09.21-15.59.20:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.09.21-15.59.20:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.09.21-15.59.20:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.09.21-15.59.20:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.09.21-15.59.20:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.09.21-15.59.20:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.09.21-15.59.20:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.09.21-15.59.20:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.09.21-15.59.20:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.09.21-15.59.20:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.09.21-15.59.20:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.09.21-15.59.20:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.09.21-15.59.22:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.09.21-15.59.22:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.09.21-15.59.22:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.09.21-15.59.22:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.09.21-15.59.22:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.09.21-15.59.22:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.09.21-15.59.22:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.09.21-15.59.22:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.09.21-15.59.22:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.09.21-15.59.22:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.09.21-15.59.22:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.09.21-15.59.22:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.09.21-15.59.22:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.09.21-15.59.22:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.09.21-15.59.23:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.09.21-15.59.23:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.09.21-15.59.23:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.09.21-15.59.24:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.09.21-15.59.26:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.09.21-15.59.26:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.09.21-15.59.26:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.09.21-15.59.26:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.09.21-15.59.26:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.09.21-15.59.26:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.09.21-15.59.26:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.09.21-15.59.26:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.09.21-15.59.26:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.09.21-15.59.26:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.09.21-15.59.26:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.09.21-15.59.26:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.09.21-15.59.26:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.09.21-15.59.26:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.09.21-15.59.26:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.09.21-15.59.26:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.09.21-15.59.26:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.09.21-15.59.26:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.09.21-15.59.27:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.09.21-15.59.27:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.09.21-15.59.27:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.09.21-15.59.27:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.09.21-15.59.27:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.09.21-15.59.27:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.09.21-15.59.27:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.09.21-15.59.27:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.09.21-15.59.27:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.09.21-15.59.27:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.09.21-15.59.27:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.09.21-15.59.27:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.09.21-15.59.27:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.09.21-15.59.27:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.09.21-15.59.27:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.09.21-15.59.27:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.09.21-15.59.27:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.09.21-15.59.27:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.09.21-15.59.29:504][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2017.09.21-15.59.30:074][  0]LogSavePackage: Save=84.91ms
-[2017.09.21-15.59.30:074][  0]LogSavePackage: Moving '../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Saved/Floor_400x400BA8090FA4A7D73DAA4FE34A0D60C172B.tmp' to '../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.09.21-15.59.30:270][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.09.21-15.59.30:270][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.09.21-15.59.30:311][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.21-15.59.30:317][  0]LightingResults: New page: Lighting Build
-[2017.09.21-15.59.30:704][  0]MapCheck: New page: Map Check
-[2017.09.21-15.59.30:704][  0]LightingResults: New page: Lighting Build
-[2017.09.21-15.59.32:934][  0]LogAIModule: Creating AISystem for world NewMap
-[2017.09.21-15.59.33:434][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.21-15.59.33:646][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.21-15.59.33:775][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 129.127ms to complete.
-[2017.09.21-15.59.33:782][  0]LogFileHelpers: Loading map 'NewMap' took 3.493
-[2017.09.21-15.59.35:490][  0]LogCollectionManager: Loaded 0 collections in 0.002221 seconds
-[2017.09.21-15.59.35:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Saved/Collections/' took 0.01s
-[2017.09.21-15.59.35:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Developers/HenryCrofts/Collections/' took 0.01s
-[2017.09.21-15.59.35:842][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Collections/' took 0.01s
-[2017.09.21-15.59.35:842][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.09.21-15.59.35:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0342 seconds. Added 2330 classes and 493 folders.
-[2017.09.21-15.59.36:204][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0036 seconds. Added 0 classes and 0 folders.
-[2017.09.21-15.59.37:240][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0037 seconds. Added 0 classes and 0 folders.
-[2017.09.21-15.59.38:126][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0039 seconds. Added 1 classes and 2 folders.
-[2017.09.21-15.59.38:757][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.09.21-15.59.39:043][  0]LogSlate: Took 0.014544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.21-15.59.39:071][  0]LogSlate: Took 0.012154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.21-15.59.39:083][  0]LogSlate: Took 0.010931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.21-15.59.39:206][  0]LogSlate: Took 0.005657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.21-15.59.39:382][  0]LogRenderer: Reallocating scene render targets to support 1208x924 NumSamples 1 (Frame:1).
-[2017.09.21-15.59.40:083][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.09.21-15.59.40:367][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0042 seconds. Added 1 classes and 2 folders.
-[2017.09.21-15.59.40:367][  0]LogLoad: (Engine Initialization) Total time: 272.97 seconds
-[2017.09.21-15.59.40:367][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.90 seconds
-[2017.09.21-15.59.40:367][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.21-15.59.40:367][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.21-15.59.40:484][  0]LogOcInput: OculusInput pre-init called
-[2017.09.21-15.59.40:488][  0]LogHMD: Starting GearVRController plugin
-[2017.09.21-15.59.40:839][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.21-15.59.41:602][  3]LogAssetRegistry: Asset discovery search completed in 101.6665 seconds
-[2017.09.21-15.59.41:722][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.21-15.59.41:722][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.005472 seconds (updated 0 objects)
-[2017.09.21-16.00.53:629][  1]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.21-16.02.22:123][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
-[2017.09.21-16.02.23:401][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
-[2017.09.21-16.03.01:385][289]LogSlate: Took 0.015646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.21-16.03.18:906][318]LogSlate: Took 0.010491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.21-16.03.41:941][318]Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/BuildingEscape.uproject" -game -rocket -progress
-[2017.09.21-16.03.42:447][318]Discovering modules, targets and source code for project...
-[2017.09.21-16.03.51:423][318]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.21-16.03.55:199][318]LogVSAccessor:Warning: Couldn't access Visual Studio
-[2017.09.21-16.03.55:356][318]Candidate modules for hot reload:
-[2017.09.21-16.03.55:356][318]  BuildingEscape
-[2017.09.21-16.03.55:357][318]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 745 Win64 Development -editorrecompile -canskiplink "C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/BuildingEscape.uproject" ]
-[2017.09.21-16.04.58:792][318]CompilerResultsLog: New page: Compilation - Sep 21, 2017, 6:04:58 PM
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info Creating makefile for hot reloading BuildingEscape (no existing makefile)
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info Compiling game modules for hot reload
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info Parsing headers for BuildingEscapeEditor
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info Reflection code generated for BuildingEscapeEditor in 5.9620388 seconds
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info Performing 4 actions (3 in parallel)
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info BuildingEscape.generated.cpp
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info PositionReport.cpp
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info [3/4] Link UE4Editor-BuildingEscape-745.dll
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info [4/4] Link UE4Editor-BuildingEscape-745.lib
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info    Creating library C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-745.lib and object C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-745.exp
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info    Creating library C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-745.suppressed.lib and object C:\Users\Henry Crofts\Documents\Game Development\repos\03_BuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-745.suppressed.exp
-[2017.09.21-16.04.58:809][318]CompilerResultsLog: Info Total build time: 62.75 seconds (Local executor: 35.47 seconds)
-[2017.09.21-16.04.58:809][318]LogMainFrame: MainFrame: Module compiling took 63.603 seconds
-[2017.09.21-16.05.04:398][318]LogClass: Could not find existing class PositionReport in package /Script/BuildingEscape for HotReload, assuming new class
-[2017.09.21-16.05.04:417][318]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0039 seconds. Added 2 classes and 2 folders.
-[2017.09.21-16.05.04:419][318]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.09.21-16.05.04:779][318]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2333 classes and 497 folders.
-[2017.09.21-16.05.04:829][318]Display: HotReload took 69.6s.
-[2017.09.21-16.05.04:840][318]Warning: HotReload operation took 69.6s.
-[2017.09.21-16.05.06:880][319]LogHotReload: New module detected: UE4Editor-BuildingEscape-745.dll
-[2017.09.21-16.05.06:957][320]LogHotReload: Starting Hot-Reload from IDE
-[2017.09.21-16.05.07:176][320]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0041 seconds. Added 2 classes and 2 folders.
-[2017.09.21-16.05.07:179][320]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.09.21-16.05.07:203][320]LogContentBrowser: Native class hierarchy populated in 0.0214 seconds. Added 2333 classes and 497 folders.
-[2017.09.21-16.05.07:225][320]Display: HotReload took  0.3s.
-[2017.09.21-16.06.11:065][869]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Source/BuildingEscape/PositionReport.h'
-[2017.09.21-16.06.11:352][869]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Source/BuildingEscape/PositionReport.cpp'
-[2017.09.21-16.07.29:028][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.09.21-16.07.30:095][ 68]LogSavePackage: Save=168.89ms
-[2017.09.21-16.07.30:095][ 68]LogSavePackage: Moving '../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Saved/NewMapD6D4989F4FD7D41007B4C29C140FAEC4.tmp' to '../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Maps/NewMap.umap'
-[2017.09.21-16.07.30:103][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Maps/NewMap.umap
-[2017.09.21-16.07.33:605][448]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.09.21-16.07.34:256][449]Cmd: QUIT_EDITOR
-[2017.09.21-16.07.34:659][449]LogExit: Preparing to exit.
-[2017.09.21-16.07.35:430][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/' was aborted.
-[2017.09.21-16.07.35:662][449]LogExit: Editor shut down
-[2017.09.21-16.07.35:671][449]LogExit: Transaction tracking system shut down
-[2017.09.21-16.07.37:234][449]LogObj: Freed 0b from 0 cluster array pools.
-[2017.09.21-16.07.37:234][449]LogExit: Object subsystem successfully closed.
-[2017.09.21-16.07.37:851][449]LogD3D11RHI: Shutdown
-[2017.09.21-16.07.37:851][449]LogD3D11RHI: CleanupD3DDevice
-[2017.09.21-16.07.38:152][449]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.21-16.07.39:637][449]LogModuleManager: Shutting down and abandoning module BuildingEscape (528)
-[2017.09.21-16.07.39:637][449]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
-[2017.09.21-16.07.39:641][449]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
-[2017.09.21-16.07.39:641][449]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
-[2017.09.21-16.07.39:647][449]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
-[2017.09.21-16.07.39:661][449]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.09.21-16.07.39:665][449]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
-[2017.09.21-16.07.39:665][449]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
-[2017.09.21-16.07.39:665][449]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
-[2017.09.21-16.07.39:665][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Collections/' was aborted.
-[2017.09.21-16.07.39:665][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Developers/HenryCrofts/Collections/' was aborted.
-[2017.09.21-16.07.39:665][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Saved/Collections/' was aborted.
-[2017.09.21-16.07.39:666][449]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
-[2017.09.21-16.07.39:683][449]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
-[2017.09.21-16.07.39:683][449]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
-[2017.09.21-16.07.39:780][449]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
-[2017.09.21-16.07.39:780][449]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
-[2017.09.21-16.07.39:780][449]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
-[2017.09.21-16.07.39:780][449]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
-[2017.09.21-16.07.39:780][449]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
-[2017.09.21-16.07.39:780][449]LogModuleManager: Shutting down and abandoning module BspMode (496)
-[2017.09.21-16.07.39:874][449]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
-[2017.09.21-16.07.39:914][449]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
-[2017.09.21-16.07.39:961][449]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
-[2017.09.21-16.07.39:970][449]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
-[2017.09.21-16.07.39:978][449]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module Media (473)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
-[2017.09.21-16.07.40:157][449]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
-[2017.09.21-16.07.40:287][449]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
-[2017.09.21-16.07.40:428][449]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
-[2017.09.21-16.07.40:428][449]LogModuleManager: Shutting down and abandoning module SessionServices (460)
-[2017.09.21-16.07.40:428][449]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
-[2017.09.21-16.07.40:428][449]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
-[2017.09.21-16.07.40:428][449]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
-[2017.09.21-16.07.40:461][449]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
-[2017.09.21-16.07.40:517][449]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
-[2017.09.21-16.07.40:607][449]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
-[2017.09.21-16.07.40:607][449]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
-[2017.09.21-16.07.40:607][449]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
-[2017.09.21-16.07.40:624][449]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
-[2017.09.21-16.07.40:624][449]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
-[2017.09.21-16.07.40:624][449]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
-[2017.09.21-16.07.40:985][449]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
-[2017.09.21-16.07.40:985][449]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
-[2017.09.21-16.07.40:985][449]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
-[2017.09.21-16.07.41:020][449]LogModuleManager: Shutting down and abandoning module MergeActors (430)
-[2017.09.21-16.07.41:026][449]LogModuleManager: Shutting down and abandoning module SizeMap (428)
-[2017.09.21-16.07.41:026][449]LogModuleManager: Shutting down and abandoning module TreeMap (426)
-[2017.09.21-16.07.41:031][449]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
-[2017.09.21-16.07.41:079][449]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
-[2017.09.21-16.07.41:133][449]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
-[2017.09.21-16.07.41:152][449]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
-[2017.09.21-16.07.41:152][449]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
-[2017.09.21-16.07.41:160][449]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
-[2017.09.21-16.07.41:164][449]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
-[2017.09.21-16.07.41:164][449]LogModuleManager: Shutting down and abandoning module XmlParser (410)
-[2017.09.21-16.07.41:178][449]LogModuleManager: Shutting down and abandoning module Blutility (408)
-[2017.09.21-16.07.41:184][449]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
-[2017.09.21-16.07.41:184][449]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
-[2017.09.21-16.07.41:184][449]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
-[2017.09.21-16.07.41:184][449]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
-[2017.09.21-16.07.41:189][449]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
-[2017.09.21-16.07.41:219][449]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
-[2017.09.21-16.07.41:243][449]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
-[2017.09.21-16.07.41:250][449]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
-[2017.09.21-16.07.41:275][449]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
-[2017.09.21-16.07.41:339][449]LogModuleManager: Shutting down and abandoning module AutomationController (388)
-[2017.09.21-16.07.41:379][449]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
-[2017.09.21-16.07.41:400][449]LogModuleManager: Shutting down and abandoning module Layers (384)
-[2017.09.21-16.07.41:475][449]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
-[2017.09.21-16.07.41:475][449]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
-[2017.09.21-16.07.41:494][449]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
-[2017.09.21-16.07.41:533][449]LogModuleManager: Shutting down and abandoning module Persona (376)
-[2017.09.21-16.07.41:609][449]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
-[2017.09.21-16.07.41:609][449]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
-[2017.09.21-16.07.41:609][449]LogModuleManager: Shutting down and abandoning module Kismet (370)
-[2017.09.21-16.07.41:643][449]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
-[2017.09.21-16.07.41:645][449]LogModuleManager: Shutting down and abandoning module Toolbox (366)
-[2017.09.21-16.07.41:686][449]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
-[2017.09.21-16.07.41:696][449]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
-[2017.09.21-16.07.41:723][449]LogModuleManager: Shutting down and abandoning module OutputLog (360)
-[2017.09.21-16.07.41:767][449]LogModuleManager: Shutting down and abandoning module GammaUI (358)
-[2017.09.21-16.07.41:775][449]LogModuleManager: Shutting down and abandoning module Documentation (356)
-[2017.09.21-16.07.41:776][449]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
-[2017.09.21-16.07.41:776][449]LogModuleManager: Shutting down and abandoning module MovieScene (352)
-[2017.09.21-16.07.41:776][449]LogModuleManager: Shutting down and abandoning module Niagara (350)
-[2017.09.21-16.07.41:776][449]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
-[2017.09.21-16.07.41:808][449]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
-[2017.09.21-16.07.41:808][449]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
-[2017.09.21-16.07.41:808][449]LogModuleManager: Shutting down and abandoning module PortalServices (342)
-[2017.09.21-16.07.41:808][449]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
-[2017.09.21-16.07.41:808][449]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
-[2017.09.21-16.07.41:808][449]LogModuleManager: Shutting down and abandoning module AIModule (336)
-[2017.09.21-16.07.41:808][449]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
-[2017.09.21-16.07.41:813][449]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
-[2017.09.21-16.07.41:883][449]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
-[2017.09.21-16.07.42:110][449]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
-[2017.09.21-16.07.42:122][449]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
-[2017.09.21-16.07.42:122][449]LogModuleManager: Shutting down and abandoning module SteamVR (324)
-[2017.09.21-16.07.42:122][449]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
-[2017.09.21-16.07.42:213][449]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
-[2017.09.21-16.07.42:277][449]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
-[2017.09.21-16.07.42:277][449]LogModuleManager: Shutting down and abandoning module OculusInput (316)
-[2017.09.21-16.07.42:277][449]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
-[2017.09.21-16.07.42:277][449]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
-[2017.09.21-16.07.42:277][449]LogModuleManager: Shutting down and abandoning module CableComponent (310)
-[2017.09.21-16.07.42:282][449]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2017.09.21-16.07.42:282][449]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2017.09.21-16.07.42:282][449]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
-[2017.09.21-16.07.42:487][449]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2017.09.21-16.07.42:487][449]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
-[2017.09.21-16.07.42:515][449]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
-[2017.09.21-16.07.42:515][449]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
-[2017.09.21-16.07.42:557][449]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
-[2017.09.21-16.07.42:557][449]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
-[2017.09.21-16.07.42:557][449]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
-[2017.09.21-16.07.42:557][449]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
-[2017.09.21-16.07.42:557][449]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
-[2017.09.21-16.07.42:658][449]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
-[2017.09.21-16.07.42:718][449]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
-[2017.09.21-16.07.42:718][449]LogModuleManager: Shutting down and abandoning module UObjectPlugin (278)
-[2017.09.21-16.07.42:718][449]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (276)
-[2017.09.21-16.07.42:755][449]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (274)
-[2017.09.21-16.07.42:782][449]LogModuleManager: Shutting down and abandoning module GitSourceControl (272)
-[2017.09.21-16.07.42:812][449]LogModuleManager: Shutting down and abandoning module SourceControl (271)
-[2017.09.21-16.07.42:816][449]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (268)
-[2017.09.21-16.07.42:816][449]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (266)
-[2017.09.21-16.07.42:816][449]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (264)
-[2017.09.21-16.07.42:816][449]LogModuleManager: Shutting down and abandoning module Paper2DEditor (262)
-[2017.09.21-16.07.42:837][449]LogModuleManager: Shutting down and abandoning module MeshPaint (261)
-[2017.09.21-16.07.42:843][449]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2017.09.21-16.07.42:844][449]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2017.09.21-16.07.42:853][449]LogModuleManager: Shutting down and abandoning module MainFrame (256)
-[2017.09.21-16.07.42:864][449]LogModuleManager: Shutting down and abandoning module HotReload (255)
-[2017.09.21-16.07.42:864][449]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Binaries/Win64' was aborted.
-[2017.09.21-16.07.42:865][449]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
-[2017.09.21-16.07.42:873][449]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
-[2017.09.21-16.07.42:873][449]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
-[2017.09.21-16.07.42:873][449]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
-[2017.09.21-16.07.42:873][449]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
-[2017.09.21-16.07.42:894][449]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
-[2017.09.21-16.07.42:995][449]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
-[2017.09.21-16.07.43:114][449]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
-[2017.09.21-16.07.43:155][449]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (232)
-[2017.09.21-16.07.43:196][449]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
-[2017.09.21-16.07.43:196][449]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
-[2017.09.21-16.07.43:216][449]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
-[2017.09.21-16.07.43:338][449]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.09.21-16.07.43:339][449]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
-[2017.09.21-16.07.43:339][449]LogModuleManager: Shutting down and abandoning module Paper2D (220)
-[2017.09.21-16.07.43:364][449]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
-[2017.09.21-16.07.43:364][449]LogModuleManager: Shutting down and abandoning module WmfMedia (216)
-[2017.09.21-16.07.43:369][449]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (214)
-[2017.09.21-16.07.43:369][449]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (212)
-[2017.09.21-16.07.43:520][449]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
-[2017.09.21-16.07.43:520][449]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (208)
-[2017.09.21-16.07.43:525][449]LogModuleManager: Shutting down and abandoning module VREditor (206)
-[2017.09.21-16.07.43:578][449]LogModuleManager: Shutting down and abandoning module StringTableEditor (204)
-[2017.09.21-16.07.43:615][449]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (202)
-[2017.09.21-16.07.43:615][449]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (200)
-[2017.09.21-16.07.43:702][449]LogModuleManager: Shutting down and abandoning module FunctionalTesting (198)
-[2017.09.21-16.07.43:702][449]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (196)
-[2017.09.21-16.07.43:745][449]LogModuleManager: Shutting down and abandoning module UMG (194)
-[2017.09.21-16.07.43:764][449]LogModuleManager: Shutting down and abandoning module UMGEditor (193)
-[2017.09.21-16.07.43:837][449]LogModuleManager: Shutting down and abandoning module Sequencer (192)
-[2017.09.21-16.07.43:877][449]LogModuleManager: Shutting down and abandoning module AssetTools (190)
-[2017.09.21-16.07.43:972][449]LogModuleManager: Shutting down and abandoning module MessageLog (189)
-[2017.09.21-16.07.43:972][449]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (188)
-[2017.09.21-16.07.43:972][449]LogModuleManager: Shutting down and abandoning module SlateReflector (182)
-[2017.09.21-16.07.44:227][449]LogModuleManager: Shutting down and abandoning module Slate (180)
-[2017.09.21-16.07.44:227][449]LogModuleManager: Shutting down and abandoning module EditorStyle (178)
-[2017.09.21-16.07.44:233][449]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (176)
-[2017.09.21-16.07.44:233][449]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (174)
-[2017.09.21-16.07.44:233][449]LogModuleManager: Shutting down and abandoning module XAudio2 (172)
-[2017.09.21-16.07.44:233][449]LogModuleManager: Shutting down and abandoning module Networking (170)
-[2017.09.21-16.07.44:233][449]LogModuleManager: Shutting down and abandoning module Core (166)
-[2017.09.21-16.07.44:233][449]LogModuleManager: Shutting down and abandoning module AssetRegistry (164)
-[2017.09.21-16.07.44:407][449]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.21-16.07.44:408][449]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/' was aborted.
-[2017.09.21-16.07.44:408][449]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.21-16.07.44:408][449]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.09.21-16.07.44:428][449]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
-[2017.09.21-16.07.44:429][449]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
-[2017.09.21-16.07.44:429][449]LogModuleManager: Shutting down and abandoning module LevelSequence (158)
-[2017.09.21-16.07.44:429][449]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
-[2017.09.21-16.07.44:429][449]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
-[2017.09.21-16.07.44:481][449]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
-[2017.09.21-16.07.44:492][449]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
-[2017.09.21-16.07.44:492][449]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
-[2017.09.21-16.07.44:545][449]LogModuleManager: Shutting down and abandoning module DerivedDataCache (146)
-[2017.09.21-16.07.44:630][449]LogDerivedDataCache: Shutdown
-[2017.09.21-16.07.44:630][449]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
-[2017.09.21-16.07.44:630][449]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
-[2017.09.21-16.07.44:756][449]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
-[2017.09.21-16.07.44:777][449]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
-[2017.09.21-16.07.44:802][449]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
-[2017.09.21-16.07.44:879][449]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
-[2017.09.21-16.07.44:984][449]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
-[2017.09.21-16.07.44:984][449]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
-[2017.09.21-16.07.44:984][449]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
-[2017.09.21-16.07.45:000][449]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (113)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (111)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (109)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (107)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (105)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module Messaging (103)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (101)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (99)
-[2017.09.21-16.07.45:093][449]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.09.21-16.07.45:099][449]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.09.21-16.07.45:099][449]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.09.21-16.07.45:107][449]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.09.21-16.07.45:124][449]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.09.21-16.07.45:129][449]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.09.21-16.07.45:143][449]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.09.21-16.07.45:143][449]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (83)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (81)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (79)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (77)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (75)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (73)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (71)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (69)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (67)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (65)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module InputCore (62)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module Settings (60)
-[2017.09.21-16.07.45:161][449]LogModuleManager: Shutting down and abandoning module OculusRift (58)
-[2017.09.21-16.07.45:163][449]LogModuleManager: Shutting down and abandoning module GearVRController (56)
-[2017.09.21-16.07.45:163][449]LogModuleManager: Shutting down and abandoning module GearVR (54)
-[2017.09.21-16.07.45:227][449]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
-[2017.09.21-16.07.45:227][449]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
-[2017.09.21-16.07.45:227][449]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
-[2017.09.21-16.07.45:227][449]LogOnline:Display: Unloading online subsystem: NULL
-[2017.09.21-16.07.45:277][449]LogModuleManager: Shutting down and abandoning module XMPP (45)
-[2017.09.21-16.07.45:292][449]LogModuleManager: Shutting down and abandoning module HTTP (43)
-[2017.09.21-16.07.45:292][449]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.09.21-16.07.45:333][449]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB362030-499B-D76F-BF59-C0B972562FA2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=c43839db485986485e8882b0300914fb%7C1c6bf3da00aa4e7197ef8f24051cff44%7Cd7baf7e1-9874-4b1e-ae75-18e940b2c902&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.21-16.07.45:358][449]LogModuleManager: Shutting down and abandoning module SSL (42)
-[2017.09.21-16.07.45:486][449]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (38)
-[2017.09.21-16.07.45:497][449]LogModuleManager: Shutting down and abandoning module DesktopPlatform (36)
-[2017.09.21-16.07.45:497][449]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.09.21-16.07.45:651][449]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.09.21-16.07.45:651][449]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.09.21-16.07.46:020][449]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.09.21-16.07.46:082][449]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.09.21-16.07.46:082][449]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.09.21-16.07.46:082][449]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.09.21-16.07.46:122][449]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.09.21-16.07.46:151][449]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.09.21-16.07.46:151][449]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.09.21-16.07.46:165][449]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.09.21-16.07.46:165][449]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.09.21-16.07.46:165][449]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.09.21-16.07.46:165][449]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.09.21-16.07.46:171][449]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.09.21-16.07.46:180][449]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.09.21-16.07.46:180][449]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.09.21-16.07.46:196][449]LogExit: Exiting.
-[2017.09.21-16.07.46:208][449]Log file closed, 09/21/17 17:07:46
+[2017.09.21-17.07.18:032][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-17.07.18:032][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.21-17.07.18:126][  0]LogInit: Computer: DESKTOP
+[2017.09.21-17.07.18:126][  0]LogInit: User: HenryCrofts
+[2017.09.21-17.07.18:126][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.09.21-17.07.18:126][  0]LogInit: High frequency timer resolution =3.433745 MHz
+[2017.09.21-17.07.18:127][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.21-17.07.18:127][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-17.07.18:127][  0]LogMemory: Process Physical Memory: 272.88 MB used, 272.88 MB peak
+[2017.09.21-17.07.18:127][  0]LogMemory: Process Virtual Memory: 266.70 MB used, 266.70 MB peak
+[2017.09.21-17.07.18:127][  0]LogMemory: Physical Memory: 5513.56 MB used,  2643.09 MB free, 8156.65 MB total
+[2017.09.21-17.07.18:127][  0]LogMemory: Virtual Memory: 643.51 MB used,  2643.09 MB free, 134217728.00 MB total
+[2017.09.21-17.07.18:918][  0]LogInit: Using OS detected language (en-US).
+[2017.09.21-17.07.18:918][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.21-17.07.18:986][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.21-17.07.22:789][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.21-17.07.22:807][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.09.21-17.07.22:807][  0]LogD3D11RHI:       3052/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.09.21-17.07.22:810][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.21-17.07.22:810][  0]LogD3D11RHI:       0/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.21-17.07.22:810][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.21-17.07.22:822][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.21-17.07.22:822][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2017.09.21-17.07.22:822][  0]LogWindows: EnumDisplayDevices:
+[2017.09.21-17.07.22:822][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.09.21-17.07.22:823][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.09.21-17.07.22:823][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.21-17.07.22:824][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.21-17.07.22:824][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.21-17.07.22:825][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.21-17.07.22:825][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.09.21-17.07.22:825][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.09.21-17.07.22:825][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.09.21-17.07.22:825][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.09.21-17.07.22:825][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.21-17.07.22:863][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.21-17.07.22:876][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.09.21-17.07.22:877][  0]LogShaderCompilers: Guid format shader working directory is -50 characters bigger than the processId version (../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Intermediate/Shaders/WorkingDirectory/8256/).
+[2017.09.21-17.07.22:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Henry Crofts/AppData/Local/Temp/UnrealShaderWorkingDir/DFFDA4C94C0E60D698B3CCAF0199E8C0/'.
+[2017.09.21-17.07.22:877][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.21-17.07.25:528][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.21-17.07.25:685][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.21-17.07.25:839][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.21-17.07.25:992][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.21-17.07.26:155][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.21-17.07.26:308][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.21-17.07.26:463][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.21-17.07.26:616][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.21-17.07.26:761][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.21-17.07.26:928][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.21-17.07.27:089][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.21-17.07.27:240][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.21-17.07.27:390][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.21-17.07.27:549][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.21-17.07.27:702][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.21-17.07.28:004][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.21-17.07.28:004][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.21-17.07.28:137][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.21-17.07.28:416][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.21-17.07.28:508][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.21-17.07.28:675][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.21-17.07.28:839][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.21-17.07.29:013][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.21-17.07.29:189][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.21-17.07.29:189][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.21-17.07.31:240][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.21-17.07.31:995][  0]LogDerivedDataCache: Loaded boot cache 0.75s 90MB C:/Users/Henry Crofts/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.21-17.07.31:995][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Henry Crofts/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.21-17.07.31:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.21-17.07.31:995][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.21-17.07.31:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.21-17.07.31:995][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.21-17.07.32:035][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.21-17.07.32:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Henry Crofts/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.21-17.07.32:068][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.21-17.07.32:069][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.21-17.07.32:084][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-17.07.32:084][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-17.07.35:553][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-17.07.35:727][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.21-17.07.36:257][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.21-17.07.36:420][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.21-17.07.36:586][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.21-17.07.36:586][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.21-17.07.36:586][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.21-17.07.37:864][  0]LogNetVersion: BuildingEscape , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 784502225)
+[2017.09.21-17.07.37:989][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2017.09.21-17.07.38:869][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.794224 seconds
+[2017.09.21-17.07.38:877][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.21-17.07.38:877][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.21-17.07.38:877][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.21-17.07.39:104][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.21-17.08.01:725][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.21-17.08.01:845][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.21-17.08.04:714][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.21-17.08.05:979][  0]SourceControl: Info Source control is disabled
+[2017.09.21-17.08.06:306][  0]SourceControl: Info Source control is disabled
+[2017.09.21-17.08.06:524][  0]SourceControl: Info Source control is disabled
+[2017.09.21-17.08.06:700][  0]SourceControl: Info Source control is disabled
+[2017.09.21-17.08.09:150][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.21-17.08.11:261][  0]LogEngine: Initializing Engine...
+[2017.09.21-17.08.11:263][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.21-17.08.11:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.21-17.08.11:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.21-17.08.12:125][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.21-17.08.12:164][  0]LogInit: XAudio2 using 'Speakers (2- Raptor HS40)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.21-17.08.12:186][  0]LogInit: FAudioDevice initialized.
+[2017.09.21-17.08.12:279][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/Henry Crofts/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.21-17.08.12:310][  0]LogInit: Texture streaming: Enabled
+[2017.09.21-17.08.12:663][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.21-17.08.13:503][  0]LogInit: Transaction tracking system initialized
+[2017.09.21-17.08.14:653][  0]BlueprintLog: New page: Editor Load
+[2017.09.21-17.08.18:342][  0]LocalizationService: Info Localization service is disabled
+[2017.09.21-17.08.20:952][  0]LogConsoleResponse:Display: 
+[2017.09.21-17.08.21:358][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.21-17.08.21:358][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.21-17.08.21:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/' took 0.02s
+[2017.09.21-17.08.25:347][  0]SourceControl: Info Source control is disabled
+[2017.09.21-17.08.25:347][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.21-17.08.25:348][  0]LightingResults: New page: Lighting Build
+[2017.09.21-17.08.25:490][  0]MapCheck: New page: Map Check
+[2017.09.21-17.08.25:490][  0]LightingResults: New page: Lighting Build
+[2017.09.21-17.08.25:995][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.09.21-17.08.26:002][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.21-17.08.26:070][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.21-17.08.26:211][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.076ms to complete.
+[2017.09.21-17.08.26:211][  0]LogFileHelpers: Loading map 'NewMap' took 0.864
+[2017.09.21-17.08.26:324][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.21-17.08.26:464][  0]LogCollectionManager: Loaded 0 collections in 0.002484 seconds
+[2017.09.21-17.08.26:662][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Saved/Collections/' took 0.01s
+[2017.09.21-17.08.26:662][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Developers/HenryCrofts/Collections/' took 0.01s
+[2017.09.21-17.08.26:662][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Collections/' took 0.01s
+[2017.09.21-17.08.26:662][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.21-17.08.26:683][  0]LogContentBrowser: Native class hierarchy populated in 0.0207 seconds. Added 2331 classes and 493 folders.
+[2017.09.21-17.08.26:910][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0048 seconds. Added 0 classes and 0 folders.
+[2017.09.21-17.08.27:840][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0040 seconds. Added 0 classes and 0 folders.
+[2017.09.21-17.08.27:999][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0043 seconds. Added 1 classes and 2 folders.
+[2017.09.21-17.08.28:221][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.21-17.08.28:238][  0]LogSlate: Took 0.010376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-17.08.28:256][  0]LogSlate: Took 0.011648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.21-17.08.28:270][  0]LogSlate: Took 0.010199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.21-17.08.28:282][  0]LogSlate: Took 0.011423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.21-17.08.28:425][  0]LogRenderer: Reallocating scene render targets to support 1516x576 NumSamples 1 (Frame:1).
+[2017.09.21-17.08.28:635][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.21-17.08.28:844][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0047 seconds. Added 1 classes and 2 folders.
+[2017.09.21-17.08.28:845][  0]LogLoad: (Engine Initialization) Total time: 76.41 seconds
+[2017.09.21-17.08.28:845][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.27 seconds
+[2017.09.21-17.08.28:845][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.21-17.08.28:845][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.21-17.08.28:858][  0]LogOcInput: OculusInput pre-init called
+[2017.09.21-17.08.28:858][  0]LogHMD: Starting GearVRController plugin
+[2017.09.21-17.08.28:880][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.21-17.08.28:941][  1]LogAssetRegistry: Asset discovery search completed in 50.9740 seconds
+[2017.09.21-17.08.28:945][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.21-17.08.28:945][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000230 seconds (updated 0 objects)
+[2017.09.21-17.39.54:668][389]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.21-17.39.56:157][511]Cmd: QUIT_EDITOR
+[2017.09.21-17.39.56:179][511]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.21-17.39.56:196][511]LogExit: Preparing to exit.
+[2017.09.21-17.39.56:765][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/' was aborted.
+[2017.09.21-17.39.56:796][511]LogExit: Editor shut down
+[2017.09.21-17.39.56:810][511]LogExit: Transaction tracking system shut down
+[2017.09.21-17.39.56:897][511]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.21-17.39.56:897][511]LogExit: Object subsystem successfully closed.
+[2017.09.21-17.39.56:916][511]LogD3D11RHI: Shutdown
+[2017.09.21-17.39.56:916][511]LogD3D11RHI: CleanupD3DDevice
+[2017.09.21-17.39.56:992][511]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.21-17.39.57:037][511]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.09.21-17.39.57:037][511]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.09.21-17.39.57:037][511]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.21-17.39.57:037][511]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.09.21-17.39.57:037][511]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.21-17.39.57:040][511]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.09.21-17.39.57:040][511]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.09.21-17.39.57:040][511]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.09.21-17.39.57:041][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Collections/' was aborted.
+[2017.09.21-17.39.57:041][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/Developers/HenryCrofts/Collections/' was aborted.
+[2017.09.21-17.39.57:041][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Saved/Collections/' was aborted.
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.09.21-17.39.57:041][511]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.09.21-17.39.57:042][511]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.09.21-17.39.57:563][511]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.09.21-17.39.57:564][511]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.09.21-17.39.57:564][511]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.09.21-17.39.57:564][511]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.09.21-17.39.57:564][511]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.09.21-17.39.57:564][511]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.09.21-17.39.57:564][511]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.09.21-17.39.57:564][511]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.09.21-17.39.57:630][511]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.09.21-17.39.57:631][511]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.09.21-17.39.57:850][511]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.09.21-17.39.57:851][511]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.09.21-17.39.57:853][511]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.09.21-17.39.57:853][511]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.09.21-17.39.57:853][511]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.09.21-17.39.57:853][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Binaries/Win64' was aborted.
+[2017.09.21-17.39.57:854][511]LogModuleManager: Shutting down and abandoning module BuildingEscape (248)
+[2017.09.21-17.39.57:854][511]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.21-17.39.57:854][511]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.21-17.39.57:854][511]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.21-17.39.57:854][511]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.21-17.39.57:854][511]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.21-17.39.57:854][511]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.21-17.39.57:955][511]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.21-17.39.58:056][511]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.21-17.39.58:056][511]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.21-17.39.58:056][511]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.21-17.39.58:056][511]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.21-17.39.58:056][511]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.21-17.39.58:056][511]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.21-17.39.58:057][511]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.21-17.39.58:058][511]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.21-17.39.58:062][511]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.21-17.39.58:062][511]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.21-17.39.58:062][511]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.21-17.39.58:062][511]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.21-17.39.58:062][511]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.21-17.39.58:062][511]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.21-17.39.58:285][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.21-17.39.58:285][511]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Henry Crofts/Documents/Game Development/repos/03_BuildingEscape/BuildingEscape2/Content/' was aborted.
+[2017.09.21-17.39.58:285][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.21-17.39.58:285][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.21-17.39.58:289][511]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.21-17.39.58:291][511]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.21-17.39.58:303][511]LogDerivedDataCache: Shutdown
+[2017.09.21-17.39.58:303][511]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.21-17.39.58:304][511]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.21-17.39.58:305][511]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.21-17.39.58:305][511]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.21-17.39.58:305][511]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.21-17.39.58:305][511]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2AC881E3-4DD5-5FF6-238C-2FA09D5DDA44%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=c43839db485986485e8882b0300914fb%7C1c6bf3da00aa4e7197ef8f24051cff44%7Cd7baf7e1-9874-4b1e-ae75-18e940b2c902&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.21-17.39.58:329][511]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.21-17.39.58:332][511]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.21-17.39.58:333][511]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.21-17.39.58:335][511]LogExit: Exiting.
+[2017.09.21-17.39.58:353][511]Log file closed, 09/21/17 18:39:58
